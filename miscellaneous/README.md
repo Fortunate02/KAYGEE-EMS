@@ -47,19 +47,160 @@ The platform is intended to serve the following user groups:
 
 KAYGEE EMS/
 │
-├─ index.html
-├─ css/
-│  └─ styles.css
-├─ assets/
-│  └─ (all paramedic images and videos clips of KAYGEE EMS etc.)
-├─ pages/
-│  ├─ about.html
-│  ├─ contact.html
-│  └─ restaurants.html
-├─ miscellaneous/
-│  ├─ README.md
-│  └─ CHANGELOG.md
-
+├── index.html
+├── .htaccess
+├── .env
+├── .gitignore
+├── composer.json
+│
+├── assets/ (all paramedic images and videos clips of KAYGEE EMS etc.)
+│   ├── images/
+│   │   ├── logo/
+│   │   ├── ambulances/
+│   │   ├── paramedics/
+│   │   ├── emergency-services/
+│   │   └── backgrounds/
+│   │
+│   ├── videos/
+│   │   └── kaygee-ems/
+│   │
+│   ├── icons/
+│   └── fonts/
+│
+├── css/
+│   ├── styles.css
+│   ├── responsive.css
+│   ├── animations.css
+│   ├── dashboard.css
+│   └── print.css
+│
+├── js/
+│   ├── main.js
+│   ├── navigation.js
+│   ├── validation.js
+│   ├── notifications.js
+│   ├── charts.js
+│   └── maps.js
+│
+├── pages/
+│   │
+│   ├── public/
+│   │   ├── home.php
+│   │   ├── about.php
+│   │   ├── services.php
+│   │   ├── service-areas.php
+│   │   ├── request-assistance.php
+│   │   ├── faqs.php
+│   │   └── contact.php
+│   │
+│   ├── authentication/
+│   │   ├── login.php
+│   │   ├── forgot-password.php
+│   │   └── reset-password.php
+│   │
+│   ├── administration/
+│   │   ├── dashboard.php
+│   │   ├── user-management.php
+│   │   ├── staff-management.php
+│   │   ├── service-management.php
+│   │   ├── enquiry-management.php
+│   │   ├── request-management.php
+│   │   ├── reports-analytics.php
+│   │   └── system-settings.php
+│   │
+│   ├── ems-operations/
+│   │   ├── dashboard.php
+│   │   ├── ambulance-management.php
+│   │   ├── fleet-management.php
+│   │   ├── paramedic-management.php
+│   │   ├── patient-management.php
+│   │   ├── incident-management.php
+│   │   ├── dispatch-management.php
+│   │   └── medical-transport.php
+│   │
+│   └── utilities/
+│       ├── notifications.php
+│       ├── help-support.php
+│       ├── 403.php
+│       ├── 404.php
+│       └── 500.php
+│
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+│   ├── navigation.php
+│   ├── sidebar.php
+│   ├── database.php
+│   ├── auth.php
+│   ├── permissions.php
+│   └── functions.php
+│
+├── backend/
+│   │
+│   ├── authentication/
+│   │   ├── login-process.php
+│   │   ├── logout.php
+│   │   ├── password-recovery.php
+│   │   └── password-reset.php
+│   │
+│   ├── administration/
+│   │   ├── users.php
+│   │   ├── staff.php
+│   │   ├── services.php
+│   │   ├── enquiries.php
+│   │   ├── requests.php
+│   │   └── settings.php
+│   │
+│   ├── ems-operations/
+│   │   ├── ambulances.php
+│   │   ├── fleet.php
+│   │   ├── paramedics.php
+│   │   ├── patients.php
+│   │   ├── incidents.php
+│   │   ├── dispatch.php
+│   │   └── medical-transport.php
+│   │
+│   └── utilities/
+│       ├── notifications.php
+│       ├── email.php
+│       └── reports.php
+│
+├── api/
+│   ├── users/
+│   ├── ambulances/
+│   ├── paramedics/
+│   ├── patients/
+│   ├── incidents/
+│   ├── dispatch/
+│   └── reports/
+│
+├── database/
+│   ├── schema.sql
+│   ├── connection.php
+│   ├── migrations/
+│   ├── seeds/
+│   └── backups/
+│
+├── uploads/
+│   ├── profiles/
+│   ├── staff/
+│   ├── patients/
+│   ├── incidents/
+│   └── documents/
+│
+├── logs/
+│   ├── application.log
+│   ├── authentication.log
+│   └── errors.log
+│
+└── miscellaneous/
+    ├── README.md
+    ├── CHANGELOG.md
+    ├── LICENSE
+    ├── INSTALLATION.md
+    ├── USER-GUIDE.md
+    ├── DEVELOPER-GUIDE.md
+    └── SYSTEM-REQUIREMENTS.md
 ## Lanugages used to develop this Project
 - HTML5 
 - CSS3 
