@@ -160,6 +160,11 @@ KAYGEE EMS/
 │   │   ├── dispatch.php
 │   │   └── medical-transport.php
 │   │
+|   |── recruitment/
+|   |   ├── submit-application.php
+|   |   |── upload-cv.php
+|   |   |── application-process.php
+|   |
 │   └── utilities/
 │       ├── notifications.php
 │       ├── email.php

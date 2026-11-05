@@ -1,0 +1,568 @@
+
+/* ==========================================
+   KAYGEE EMS GLOBAL THEME
+   Medical Navy + Emergency Red + White
+========================================== */
+
+:root {
+    --mcl-dark: #0B1F33;
+    --mcl-gray: #334155;
+    --mcl-light: #F1F5F9;
+    --mcl-orange: #DC2626;
+    --mcl-orange-dark: #B91C1C;
+
+    --primary: #0B1F33;
+    --secondary: #0284C7;
+    --accent: #DC2626;
+    --card: #FFFFFF;
+    --white: #FFFFFF;
+}
+
+/* BODY */
+
+body {
+    background: var(--mcl-light);
+    color: var(--mcl-dark);
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* NAVBAR */
+
+nav {
+    background: #0B1F33 !important;
+    color: #FFFFFF !important;
+    border-bottom: 4px solid #DC2626;
+}
+
+nav a {
+    color: #FFFFFF !important;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .3s;
+}
+
+nav a:hover,
+.text-primary {
+    color: #38BDF8 !important;
+}
+
+nav span {
+    color: #FFFFFF !important;
+}
+
+nav button span {
+    background-color: #FFFFFF !important;
+}
+
+nav.bg-white {
+    background-color: #0B1F33 !important;
+}
+
+nav * {
+    color: #FFFFFF;
+}
+
+/* LOGO GRADIENT */
+
+.luxury-text-gradient {
+    background: linear-gradient(
+        90deg,
+        #FFFFFF,
+        #DC2626
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* CARDS */
+
+.card,
+.project-card,
+.bg-white,
+.service-card {
+    border-radius: 18px;
+    transition: .3s;
+}
+
+.card:hover,
+.project-card:hover,
+.bg-white:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(11,31,51,.15);
+}
+
+/* FOOTER */
+
+.footer {
+    background: #0B1F33;
+    color: #FFFFFF;
+    padding: 60px 8%;
+    border-top: 4px solid #DC2626;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.3fr 1.3fr;
+    gap: 50px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255,.12);
+}
+
+.company-info p {
+    color: #CBD5E1;
+    line-height: 1.8;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* FOOTER TITLES */
+
+.footer-column h3 {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+/* FOOTER LINKS */
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 12px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #CBD5E1;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.footer-column ul li a:hover {
+    color: #38BDF8;
+}
+
+/* CONTACT INFORMATION */
+
+.contact-info li {
+    color: #CBD5E1;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.contact-info i {
+    color: #DC2626;
+    margin-top: 4px;
+}
+
+/* SOCIAL MEDIA */
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #1E3A5F;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.social-icons a:hover {
+    background: #DC2626;
+    color: #FFFFFF;
+}
+
+/* NEWSLETTER */
+
+.newsletter {
+    text-align: center;
+    padding: 50px 0;
+    border-bottom: 1px solid rgba(255,255,255,.12);
+}
+
+.newsletter h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.newsletter p {
+    color: #CBD5E1;
+    margin-bottom: 25px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.newsletter-form input {
+    width: 320px;
+    padding: 15px 20px;
+    border: 1px solid #334155;
+    outline: none;
+    border-radius: 30px;
+    background: #1E293B;
+    color: #FFFFFF;
+}
+
+.newsletter-form button {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 30px;
+    background: #DC2626;
+    color: #FFFFFF;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.newsletter-form button:hover {
+    background: #B91C1C;
+}
+
+/* FOOTER BOTTOM */
+
+.footer-bottom {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer-bottom p {
+    color: #94A3B8;
+    font-size: 13px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #CBD5E1;
+    font-size: 13px;
+}
+
+.footer-links a:hover {
+    color: #38BDF8;
+}
+
+.footer-links span {
+    color: #64748B;
+}
+
+/* HAMBURGER */
+
+#hamburger .bar {
+    transition: .3s;
+}
+
+#hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+#hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+#hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+/* MOBILE MENU */
+
+#mobile-menu a {
+    font-weight: 600;
+    color: #FFFFFF;
+    border-bottom: 1px solid #DC2626;
+}
+
+#mobile-menu a:hover {
+    color: #38BDF8;
+}
+
+/* VACANCY CARDS */
+
+.job-card {
+    background: var(--card);
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 5px 20px rgba(11,31,51,.08);
+    border-left: 5px solid var(--accent);
+    transition: .3s;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.job-card:hover {
+    box-shadow: 0 12px 30px rgba(11,31,51,.15);
+    transform: translateY(-4px);
+}
+
+/* GENERAL BUTTONS */
+
+button,
+.btn {
+    transition: .3s;
+}
+
+.btn-primary,
+button.primary {
+    background: #DC2626;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn-primary:hover,
+button.primary:hover {
+    background: #B91C1C;
+}
+
+/* DESKTOP */
+
+@media (min-width: 1200px) {
+    .footer-container {
+        grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    }
+
+    nav .luxury-text-gradient {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .job-card {
+        flex-direction: row;
+    }
+
+    .job-buttons {
+        display: flex;
+        gap: 12px;
+        justify-content: flex-end;
+        align-items: center;
+        flex-shrink: 0;
+    }
+}
+
+/* TABLET */
+
+@media (max-width: 1024px) {
+    nav .luxury-text-gradient {
+        font-size: 1.5rem;
+    }
+
+    nav .h-20 {
+        height: 60px;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
+    .newsletter h2 {
+        font-size: 26px;
+    }
+
+    .newsletter-form input {
+        width: 280px;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .job-card {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 22px;
+        gap: 25px;
+    }
+
+    .job-buttons {
+        width: 100%;
+        justify-content: flex-start;
+        display: flex;
+        gap: 15px;
+    }
+
+    .job-buttons button {
+        flex: 1;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+    nav .max-w-7xl {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    nav img {
+        height: 55px !important;
+    }
+
+    .luxury-text-gradient {
+        font-size: 1rem !important;
+        max-width: 180px;
+        line-height: 1.2;
+    }
+
+    #mobile-menu {
+        width: 100%;
+        background: #0B1F33;
+        box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    }
+
+    #mobile-menu a {
+        display: block;
+        padding: 14px 20px;
+    }
+
+    .cards,
+    .gallery {
+        grid-template-columns: 1fr !important;
+    }
+
+    .card,
+    .project-card,
+    .service-card {
+        width: 100%;
+    }
+
+    .job-card {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 18px;
+        border-left: 4px solid var(--accent);
+        gap: 20px;
+    }
+
+    .job-info h3 {
+        font-size: 20px;
+    }
+
+    .job-meta {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .job-buttons {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 12px;
+    }
+
+    .job-buttons button {
+        width: 100%;
+        padding: 14px;
+    }
+
+    .footer {
+        padding: 50px 25px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .contact-info li {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .newsletter h2 {
+        font-size: 24px;
+    }
+
+    .newsletter p {
+        font-size: 14px;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter-form input,
+    .newsletter-form button {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+/* SMALL MOBILE */
+
+@media (max-width: 480px) {
+    nav img {
+        height: 45px !important;
+    }
+
+    .luxury-text-gradient {
+        font-size: .85rem !important;
+        max-width: 140px;
+    }
+
+    .footer {
+        padding: 40px 15px;
+    }
+
+    .footer-column h3 {
+        font-size: 13px;
+    }
+
+    .company-info p,
+    .footer-column ul li a,
+    .contact-info li {
+        font-size: 13px;
+    }
+
+    .newsletter h2 {
+        font-size: 22px;
+    }
+}

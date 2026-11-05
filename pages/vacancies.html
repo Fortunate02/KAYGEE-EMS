@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/vacancies.css">
+    <title>KAYGEE EMS</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+  <nav class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 h-20">
+
+      <!-- Logo -->
+      <div class="flex items-center">
+        <img src="./assests/mcl logo.png" alt="MCL Company" class="h-20">
+        <span class="ml-4 text-3xl font-bold luxury-text-gradient h-14">Msondos Constructions & Logistics</span>
+      </div>
+
+      <!-- Desktop Menu -->
+      <div id="nav-links" class="hidden md:flex space-x-8">
+        <a href="../index.html" class="text-primary">Home</a>
+        <a href="../Pages/services.html">Service</a>
+        <a href="../Pages/projects.html">Projects</a>
+        <a href="../Pages/vacancies.html">Vacancies</a>
+        <a href="../Pages/contact.html">Contact</a>
+        <a href="../Pages/about.html">About Us</a>
+      </div>
+
+      <!-- Hamburger Button (Mobile only) -->
+      <button id="hamburger" class="md:hidden flex flex-col gap-1.5 focus:outline-none">
+        <span class="w-6 h-0.5 bg-black"></span>
+        <span class="w-6 h-0.5 bg-black"></span>
+        <span class="w-6 h-0.5 bg-black"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg px-6 pb-6">
+
+      <a href="../index.html" class="block py-3">
+        Home
+      </a>
+
+      <a href="../Pages/services.html" class="block py-3">
+        Service
+      </a>
+
+      <a href="../Pages/projects.html" class="block py-3">
+        Projects
+      </a>
+
+      <a href="../Pages/vacancies.html" class="block py-3">
+        Vacancies
+      </a>
+
+      <a href="../Pages/contact.html" class="block py-3">
+        Contact
+      </a>
+
+      <a href="../Pages/about.html" class="block py-3">
+        About Us
+      </a>
+    </div>
+  </nav>
+
+    <!-- CAREERS SECTION -->
+    <section class="career-section">
+
+        <!-- Section Header -->
+        <div class="section-header">
+
+            <p class="subtitle">JOIN THE KAYGEE EMS TEAM</p>
+
+            <h1>CAREER OPPORTUNITIES</h1>
+
+            <p class="description">
+                Make a difference in people's lives. Join the KAYGEE EMS team
+                and become part of a dedicated emergency medical services
+                organisation committed to serving Phalaborwa and surrounding
+                communities.
+            </p>
+
+        </div>
+
+
+        <!-- Statistics -->
+        <div class="stats-container">
+
+            <div class="stat-box">
+                <h2>06</h2>
+                <span>CAREER CATEGORIES</span>
+            </div>
+
+            <div class="stat-box">
+                <h2>03</h2>
+                <span>DEPARTMENTS</span>
+            </div>
+
+            <div class="stat-box">
+                <h2>EMS</h2>
+                <span>MEDICAL SERVICES</span>
+            </div>
+
+            <div class="stat-box">
+                <h2>24/7</h2>
+                <span>EMERGENCY SERVICE COMMITMENT</span>
+            </div>
+
+        </div>
+
+
+        <!-- Job Listings -->
+        <div class="jobs-container">
+
+
+            <!-- Job 1 -->
+            <div class="job-card">
+
+                <div class="job-info">
+
+                    <p class="department">
+                        EMERGENCY MEDICAL SERVICES
+                        <span>• Recruitment Opportunities</span>
+                    </p>
+
+                    <h3>Emergency Care Practitioner / Paramedic</h3>
+
+                    <div class="job-meta">
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Phalaborwa, Limpopo
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            Full-Time / As Advertised
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-money-bill"></i>
+                            To Be Discussed
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="job-buttons">
+
+                    <button class="btn-outline view-btn" onclick="openJobModal('paramedic')">
+                        VIEW DETAILS
+                    </button>
+
+                    <button class="btn-filled apply-btn"
+                        onclick="openApplication('Emergency Care Practitioner / Paramedic')">
+                        APPLY NOW
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Job 2 -->
+            <div class="job-card">
+
+                <div class="job-info">
+
+                    <p class="department">
+                        EMERGENCY MEDICAL SERVICES
+                        <span>• Recruitment Opportunities</span>
+                    </p>
+
+                    <h3>Ambulance Emergency Assistant</h3>
+
+                    <div class="job-meta">
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Phalaborwa, Limpopo
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            Full-Time / As Advertised
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-money-bill"></i>
+                            To Be Discussed
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="job-buttons">
+
+                    <button class="btn-outline view-btn" onclick="openJobModal('assistant')">
+                        VIEW DETAILS
+                    </button>
+
+                    <button class="btn-filled apply-btn" onclick="openApplication('Ambulance Emergency Assistant')">
+                        APPLY NOW
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Job 3 -->
+            <div class="job-card">
+
+                <div class="job-info">
+
+                    <p class="department">
+                        TRANSPORT OPERATIONS
+                        <span>• Recruitment Opportunities</span>
+                    </p>
+
+                    <h3>Ambulance Driver</h3>
+
+                    <div class="job-meta">
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Phalaborwa, Limpopo
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            Full-Time / As Advertised
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-money-bill"></i>
+                            To Be Discussed
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="job-buttons">
+
+                    <button class="btn-outline view-btn" onclick="openJobModal('driver')">
+                        VIEW DETAILS
+                    </button>
+
+                    <button class="btn-filled apply-btn" onclick="openApplication('Ambulance Driver')">
+                        APPLY NOW
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Job 4 -->
+            <div class="job-card">
+
+                <div class="job-info">
+
+                    <p class="department">
+                        DISPATCH & OPERATIONS
+                        <span>• Recruitment Opportunities</span>
+                    </p>
+
+                    <h3>EMS Dispatch Operator</h3>
+
+                    <div class="job-meta">
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Phalaborwa, Limpopo
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            Full-Time / As Advertised
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-money-bill"></i>
+                            To Be Discussed
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="job-buttons">
+
+                    <button class="btn-outline view-btn" onclick="openJobModal('dispatcher')">
+                        VIEW DETAILS
+                    </button>
+
+                    <button class="btn-filled apply-btn" onclick="openApplication('EMS Dispatch Operator')">
+                        APPLY NOW
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Job 5 -->
+            <div class="job-card">
+
+                <div class="job-info">
+
+                    <p class="department">
+                        FLEET MANAGEMENT
+                        <span>• Recruitment Opportunities</span>
+                    </p>
+
+                    <h3>Fleet Maintenance Technician</h3>
+
+                    <div class="job-meta">
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Phalaborwa, Limpopo
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            Full-Time / As Advertised
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-money-bill"></i>
+                            To Be Discussed
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="job-buttons">
+
+                    <button class="btn-outline view-btn" onclick="openJobModal('technician')">
+                        VIEW DETAILS
+                    </button>
+
+                    <button class="btn-filled apply-btn" onclick="openApplication('Fleet Maintenance Technician')">
+                        APPLY NOW
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Job 6 -->
+            <div class="job-card">
+
+                <div class="job-info">
+
+                    <p class="department">
+                        ADMINISTRATION
+                        <span>• Recruitment Opportunities</span>
+                    </p>
+
+                    <h3>EMS Administrative Officer</h3>
+
+                    <div class="job-meta">
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Phalaborwa, Limpopo
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-clock"></i>
+                            Full-Time / As Advertised
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-money-bill"></i>
+                            To Be Discussed
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="job-buttons">
+
+                    <button class="btn-outline view-btn" onclick="openJobModal('administrator')">
+                        VIEW DETAILS
+                    </button>
+
+                    <button class="btn-filled apply-btn" onclick="openApplication('EMS Administrative Officer')">
+                        APPLY NOW
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Career Footer -->
+        <div class="career-footer">
+
+            <p>
+                Don't see a suitable position? Submit an open application
+                and introduce yourself to the KAYGEE EMS recruitment team.
+            </p>
+
+            <a href="careers/open-application.php">
+                SEND OPEN APPLICATION
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+
+        </div>
+
+
+        <!-- Job Details Modal -->
+        <div class="modal" id="jobModal">
+
+            <div class="modal-content">
+
+                <button class="close-icon" onclick="closeModal()">
+                    &times;
+                </button>
+
+                <div class="category" id="jobCategory">
+                    EMERGENCY MEDICAL SERVICES
+                </div>
+
+                <h1 class="job-title" id="jobTitle">
+                    Job Title
+                </h1>
+
+                <div class="tags">
+
+                    <span class="tag" id="jobLocation">
+                        📍 Phalaborwa, Limpopo
+                    </span>
+
+                    <span class="tag" id="jobType">
+                        🕒 Employment Type
+                    </span>
+
+                    <span class="tag" id="jobSalary">
+                        💰 To Be Discussed
+                    </span>
+
+                    <span class="tag" id="jobDeadline">
+                        📅 Application Deadline
+                    </span>
+
+                </div>
+
+                <div class="section">
+
+                    <h3>Job Description</h3>
+
+                    <p id="jobDescription"></p>
+
+                </div>
+
+                <div class="section">
+
+                    <h3>Requirements & Qualifications</h3>
+
+                    <ul id="jobRequirements"></ul>
+
+                </div>
+
+                <div class="section">
+
+                    <h3>Responsibilities</h3>
+
+                    <ul id="jobBenefits"></ul>
+
+                </div>
+
+                <div class="modal-actions">
+
+                    <button class="apply-btn" id="modalApplyBtn">
+                        Apply Now
+                    </button>
+
+                    <button class="close-btn" onclick="closeModal()">
+                        Close
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+    
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+
+               <p>
+                © 2026 KAYGEE EMS. All rights reserved.
+                </p>
+
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <span>|</span>
+                    <a href="#">Terms of Service</a>
+                    <span>|</span>
+                    <a href="https://www.instagram.com/dikolobe_technologies/">Website Builder</a>
+                </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
