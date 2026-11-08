@@ -11,15 +11,33 @@
 
 <body>
 
-    <!-- Desktop Menu -->
-    <div id="nav-links" class="hidden md:flex space-x-8">
-        <a href="./index.html" class="text-primary">Home</a>
-        <a href="./pages/services.html">Service</a>
-        <a href="./pages/request-assistance.html">Request Assistance</a>
-        <a href="./pages/vacancies.html">Vacancies</a>
-        <a href="./pages/contact_us.html">Contact</a>
-        <a href="./pages/about_us.html">About Us</a>
-    </div>
+   <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center px-6 h-20">
+
+            <!-- Logo -->
+            <div class="flex items-center">
+                <img src=".." alt="MCL Company" class="h-20">
+                <span class="ml-4 text-3xl font-bold luxury-text-gradient">Msondos Constructions & Logistics</span>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div id="nav-links" class="hidden md:flex space-x-8">
+                <a href="../index.html">Home</a>
+                <a href="../Pages/services.html" class="text-primary">Service</a>
+                <a href="../Pages/projects.html">Projects</a>
+                <a href="../Pages/vacancies.html">Vacancies</a>
+                <a href="../Pages/contact.html">Contact</a>
+                <a href="../Pages/about.html">About Us</a>
+            </div>
+
+            <!-- Hamburger Button (Mobile only) -->
+            <button id="hamburger" class="md:hidden flex flex-col gap-1.5 focus:outline-none">
+                <span class="w-6 h-0.5 bg-black"></span>
+                <span class="w-6 h-0.5 bg-black"></span>
+                <span class="w-6 h-0.5 bg-black"></span>
+            </button>
+        </div>
 
     <footer class="footer">
 
