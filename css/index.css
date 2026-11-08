@@ -1,0 +1,315 @@
+/* ===============================
+   KAYGEE EMS HOME PAGE THEME
+   Medical Navy + Emergency Red + White
+================================= */
+
+:root {
+    --primary: #0B1F33;
+    --dark: #0B1F33;
+    --secondary: #0284C7;
+    --accent: #DC2626;
+    --accent-dark: #B91C1C;
+    --light: #F1F5F9;
+    --text: #334155;
+    --white: #FFFFFF;
+
+    --mcl-dark: #0B1F33;
+    --mcl-gray: #334155;
+    --mcl-light: #F1F5F9;
+    --mcl-orange: #DC2626;
+    --mcl-orange-dark: #B91C1C;
+
+    --navy: #0B1F33;
+    --red: #DC2626;
+    --red-dark: #B91C1C;
+    --blue: #0284C7;
+    --sky-blue: #38BDF8;
+    --card: #FFFFFF;
+}
+
+/* ===============================
+   BODY
+================================= */
+
+body {
+    background: var(--light);
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: var(--dark);
+}
+
+/* ===============================
+   NAVBAR
+================================= */
+
+nav {
+    background: var(--navy) !important;
+    color: var(--white) !important;
+    border-bottom: 4px solid var(--red);
+}
+
+nav a {
+    color: var(--white) !important;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .3s;
+}
+
+nav a:hover,
+.text-primary {
+    color: var(--sky-blue) !important;
+}
+
+nav span {
+    color: var(--white) !important;
+}
+
+nav button span {
+    background-color: var(--white) !important;
+}
+
+nav.bg-white {
+    background-color: var(--navy) !important;
+}
+
+nav * {
+    color: var(--white);
+}
+
+/* ===============================
+   LOGO GRADIENT
+================================= */
+
+.luxury-text-gradient {
+    background: linear-gradient(
+        90deg,
+        var(--white),
+        var(--red)
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ===============================
+   CARDS
+================================= */
+
+.card,
+.project-card,
+.bg-white,
+.service-card {
+    border-radius: 18px;
+    transition: .3s;
+}
+
+.card:hover,
+.project-card:hover,
+.bg-white:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(11,31,51,.15);
+}
+
+/* ===============================
+   LOADER
+================================= */
+
+#loader {
+    position: fixed;
+    inset: 0;
+    background: var(--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+}
+
+#loader img {
+    width: 130px;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+/* ===============================
+   HERO BANNER
+================================= */
+
+.banner {
+    height: 90vh;
+
+    background:
+        linear-gradient(
+            rgba(11,31,51,.75),
+            rgba(11,31,51,.88)
+        ),
+        url("../assests/Team\ Planning.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content {
+    text-align: center;
+    color: var(--white);
+    max-width: 900px;
+    padding: 20px;
+}
+
+.banner-content h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.banner-content h2 {
+    color: var(--red);
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+.banner-content p {
+    font-size: 1.3rem;
+    color: var(--white);
+}
+
+/* ===============================
+   SECTION TITLES
+================================= */
+
+section h2 {
+    color: var(--primary);
+}
+
+.text-orange-500 {
+    color: var(--red) !important;
+}
+
+.bg-orange-500 {
+    background: var(--red) !important;
+}
+
+/* ===============================
+   DEPARTMENT CARDS
+================================= */
+
+.grid > div {
+    border-radius: 20px !important;
+    border-top: 5px solid transparent;
+    transition: .35s;
+}
+
+.grid > div:hover {
+    transform: translateY(-10px);
+    border-top-color: var(--red);
+    box-shadow: 0 20px 40px rgba(11,31,51,.18);
+}
+
+.grid h3 {
+    color: var(--primary);
+}
+
+.grid li {
+    transition: .2s;
+}
+
+.grid li:hover {
+    color: var(--red);
+    transform: translateX(5px);
+}
+
+/* ===============================
+   ICONS
+================================= */
+
+.fa-solid {
+    color: var(--red);
+}
+
+/* ===============================
+   DARK SECTION
+================================= */
+
+.bg-gray-900 {
+    background: var(--navy) !important;
+}
+
+.bg-gray-800 {
+    background: #1E293B !important;
+    transition: .3s;
+}
+
+.bg-gray-800:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(220,38,38,.18);
+}
+
+.bg-gray-800 h3 {
+    color: var(--white);
+}
+
+/* ===============================
+   BUTTON STYLE
+================================= */
+
+button,
+.quote-btn {
+    background: var(--red);
+    color: var(--white);
+    border: none;
+
+    padding: 14px 28px;
+    border-radius: 10px;
+
+    font-weight: 700;
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+button:hover,
+.quote-btn:hover {
+    background: var(--red-dark);
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+/* ===============================
+   MODAL
+================================= */
+
+.modal-content {
+    border-top: 5px solid var(--red);
+    border-radius: 15px;
+}
+
+.stat-box h3 {
+    color: var(--red);
+}
+
+/* ===============================
+   MOBILE
+================================= */
+
+@media(max-width:768px) {
+
+    .banner-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .banner-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
