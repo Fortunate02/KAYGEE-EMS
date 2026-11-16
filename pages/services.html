@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,287 +9,558 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <script src="https://cdn.tailwindcss.com/3.4.16"></script>
 </head>
+
 <body>
 
     <!-- Navigation -->
-  <nav class="bg-white shadow-lg sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 h-20">
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center px-6 h-20">
 
-      <!-- Logo -->
-      <div class="flex items-center">
-        <img src="./" alt="KAYGEE EMS" class="h-20">
-        <span class="ml-4 text-3xl font-bold luxury-text-gradient h-14">KAYGEE EMS</span>
-      </div>
+            <!-- Logo -->
+            <div class="flex items-center">
+                <img src="./" alt="KAYGEE EMS" class="h-20">
+                <span class="ml-4 text-3xl font-bold luxury-text-gradient h-14">KAYGEE EMS</span>
+            </div>
 
-      <!-- Desktop Menu -->
-      <div id="nav-links" class="hidden md:flex space-x-8">
-        <a href="../index.html">Home</a>
-        <a href="../pages/services.html" class="text-primary">Service</a>
-        <a href="../pages/vacancies.html">Vacancies</a>
-        <a href="../pages/contact_us.html">Contact</a>
-        <a href="../pages/about.html">About Us</a>
-        <a href="../pages/request-assistance.html">Request Assistance</a>
-      </div>
+            <!-- Desktop Menu -->
+            <div id="nav-links" class="hidden md:flex space-x-8">
+                <a href="../index.html">Home</a>
+                <a href="../pages/services.html" class="text-primary">Service</a>
+                <a href="../pages/vacancies.html">Vacancies</a>
+                <a href="../pages/contact_us.html">Contact</a>
+                <a href="../pages/about.html">About Us</a>
+                <a href="../pages/request-assistance.html">Request Assistance</a>
+            </div>
 
-      <!-- Hamburger Button (Mobile only) -->
-      <button id="hamburger" class="md:hidden flex flex-col gap-1.5 focus:outline-none">
-        <span class="w-6 h-0.5 bg-black"></span>
-        <span class="w-6 h-0.5 bg-black"></span>
-        <span class="w-6 h-0.5 bg-black"></span>
-      </button>
-    </div>
+            <!-- Hamburger Button (Mobile only) -->
+            <button id="hamburger" class="md:hidden flex flex-col gap-1.5 focus:outline-none">
+                <span class="w-6 h-0.5 bg-black"></span>
+                <span class="w-6 h-0.5 bg-black"></span>
+                <span class="w-6 h-0.5 bg-black"></span>
+            </button>
+        </div>
 
-    <!-- Mobile Menu -->
+        <!-- Mobile Menu -->
 
-    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg px-6 pb-6">
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg px-6 pb-6">
 
-      <a href="../index.html" class="block py-3">
-        Home
-      </a>
+            <a href="../index.html" class="block py-3">
+                Home
+            </a>
 
-      <a href="../pages/services.html" class="block py-3">
-        Service
-      </a>
+            <a href="../pages/services.html" class="block py-3">
+                Service
+            </a>
 
-      <a href="../pages/contact_us.html" class="block py-3">
-        Vacancies
-      </a>
+            <a href="../pages/contact_us.html" class="block py-3">
+                Vacancies
+            </a>
 
-      <a href="../pages/contact_us.html" class="block py-3">
-        Contact
-      </a>
+            <a href="../pages/contact_us.html" class="block py-3">
+                Contact
+            </a>
 
-      <a href="../pages/about_us.html" class="block py-3">
-        About Us
-      </a>
+            <a href="../pages/about_us.html" class="block py-3">
+                About Us
+            </a>
 
-      <a href="../pages/request-assistance.html" class="block py-3">
-        Request Assistance
-      </a>
-      
-    </div>
-  </nav>
+            <a href="../pages/request-assistance.html" class="block py-3">
+                Request Assistance
+            </a>
+
+        </div>
+    </nav>
 
     <!-- ===================================== -->
-<!-- KAYGEE EMS SERVICES -->
+    <!-- KAYGEE EMS SERVICES -->
+    <!-- ===================================== -->
+
+    <section class="py-20 bg-gray-50">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <!-- SECTION HEADER -->
+
+            <div class="text-center mb-16">
+
+                <p class="text-orange-500 font-semibold tracking-widest">
+                    WHAT WE OFFER
+                </p>
+
+                <div class="w-24 h-1 bg-orange-500 mx-auto my-4"></div>
+
+                <h2 class="text-5xl font-bold text-gray-800 mb-6">
+                    Our Medical Services
+                </h2>
+
+                <p class="max-w-3xl mx-auto text-gray-600 text-lg">
+                    At KAYGEE EMS, we are committed to providing
+                    professional, reliable, and compassionate emergency
+                    medical assistance. From accident scenes and workplace
+                    injuries to hospital transfers, events, and private
+                    patient care, our focus is on patient safety,
+                    dignity, and quality medical support.
+                </p>
+
+            </div>
+
+
+            <!-- SERVICES GRID -->
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <!-- ACCIDENT ASSISTANCE -->
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
+
+                    <div class="text-orange-500 text-5xl mb-6">
+                        <i class="fa-solid fa-car-burst"></i>
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">
+                        Accident Assistance
+                    </h3>
+
+                    <p class="text-gray-600 mb-5">
+                        KAYGEE EMS provides emergency medical assistance
+                        at accident scenes, prioritising patient assessment,
+                        immediate care, stabilisation, and safe transportation
+                        to appropriate healthcare facilities.
+                    </p>
+
+                    <ul class="space-y-3 text-gray-600">
+                        <li>✔ Road Accident Medical Assistance</li>
+                        <li>✔ Emergency Patient Assessment</li>
+                        <li>✔ On-Scene Medical Support</li>
+                        <li>✔ Patient Stabilisation</li>
+                        <li>✔ Ambulance Transportation</li>
+                    </ul>
+
+                </div>
+
+
+                <!-- HOUSE CALLS -->
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
+
+                    <div class="text-orange-500 text-5xl mb-6">
+                        <i class="fa-solid fa-house-medical"></i>
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">
+                        House Calls
+                    </h3>
+
+                    <p class="text-gray-600 mb-5">
+                        We provide medical assistance at patients' homes,
+                        offering convenient healthcare support for
+                        individuals who require medical attention without
+                        immediately travelling to a healthcare facility.
+                    </p>
+
+                    <ul class="space-y-3 text-gray-600">
+                        <li>✔ Home-Based Medical Assistance</li>
+                        <li>✔ Patient Assessment</li>
+                        <li>✔ Basic Medical Support</li>
+                        <li>✔ Medical Monitoring</li>
+                        <li>✔ Referral or Transport When Required</li>
+                    </ul>
+
+                </div>
+
+
+                <!-- HOSPITAL TRANSFERS -->
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
+
+                    <div class="text-orange-500 text-5xl mb-6">
+                        <i class="fa-solid fa-truck-medical"></i>
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">
+                        Hospital-to-Hospital Transfers
+                    </h3>
+
+                    <p class="text-gray-600 mb-5">
+                        We facilitate patient transfers between hospitals
+                        and healthcare facilities, ensuring appropriate
+                        medical transportation and continuity of care
+                        throughout the transfer process.
+                    </p>
+
+                    <ul class="space-y-3 text-gray-600">
+                        <li>✔ Inter-Hospital Patient Transfers</li>
+                        <li>✔ Medical Facility Transfers</li>
+                        <li>✔ Scheduled Patient Transfers</li>
+                        <li>✔ Emergency Transfers</li>
+                        <li>✔ Appropriate Ambulance Support</li>
+                    </ul>
+
+                </div>
+
+
+                <!-- INJURIES ON DUTY / WCA -->
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
+
+                    <div class="text-orange-500 text-5xl mb-6">
+                        <i class="fa-solid fa-briefcase-medical"></i>
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">
+                        Injuries on Duty / WCA
+                    </h3>
+
+                    <p class="text-gray-600 mb-5">
+                        KAYGEE EMS offers medical assistance and patient
+                        transportation for workplace injuries and
+                        occupational incidents. We support employers
+                        and employees by facilitating appropriate
+                        medical attention following workplace accidents.
+                    </p>
+
+                    <ul class="space-y-3 text-gray-600">
+                        <li>✔ Workplace Injury Assistance</li>
+                        <li>✔ Occupational Accident Response</li>
+                        <li>✔ Employee Medical Transportation</li>
+                        <li>✔ Medical Facility Transfers</li>
+                        <li>✔ WCA-Related Patient Support</li>
+                    </ul>
+
+                </div>
+
+
+                <!-- EVENTS MEDICAL ASSISTANCE -->
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
+
+                    <div class="text-orange-500 text-5xl mb-6">
+                        <i class="fa-solid fa-kit-medical"></i>
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">
+                        Events Medical Assistance
+                    </h3>
+
+                    <p class="text-gray-600 mb-5">
+                        We provide medical standby and emergency
+                        medical assistance for events, helping organisers
+                        promote a safer environment for participants,
+                        spectators, staff, and guests.
+                    </p>
+
+                    <ul class="space-y-3 text-gray-600">
+                        <li>✔ Corporate Event Medical Cover</li>
+                        <li>✔ Sports Event Medical Assistance</li>
+                        <li>✔ Community Event Medical Support</li>
+                        <li>✔ Medical Standby Services</li>
+                        <li>✔ Emergency Patient Assistance</li>
+                    </ul>
+
+                </div>
+
+
+                <!-- PRIVATE PATIENTS -->
+
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
+
+                    <div class="text-orange-500 text-5xl mb-6">
+                        <i class="fa-solid fa-user-doctor"></i>
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">
+                        Private Patients
+                    </h3>
+
+                    <p class="text-gray-600 mb-5">
+                        We offer personalised medical assistance and
+                        transportation services to private individuals
+                        and families requiring professional healthcare
+                        support. Our commitment is to deliver care
+                        with compassion, respect, and dignity.
+                    </p>
+
+                    <ul class="space-y-3 text-gray-600">
+                        <li>✔ Private Ambulance Services</li>
+                        <li>✔ Scheduled Patient Transportation</li>
+                        <li>✔ Medical Appointment Transfers</li>
+                        <li>✔ Hospital Discharge Transfers</li>
+                        <li>✔ Personalised Patient Support</li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ===================================== -->
+    <!-- WHY CHOOSE KAYGEE EMS -->
+    <!-- ===================================== -->
+
+    <section class="py-20 bg-gray-900 text-white">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="text-center mb-16">
+
+                <p class="text-orange-500 font-semibold tracking-widest">
+                    WHY CHOOSE US
+                </p>
+
+                <div class="w-24 h-1 bg-orange-500 mx-auto my-4"></div>
+
+                <h2 class="text-5xl font-bold mb-6">
+                    Your Care Is Our Priority
+                </h2>
+
+                <p class="max-w-3xl mx-auto text-gray-300 text-lg">
+                    At KAYGEE EMS, we understand that medical assistance
+                    requires professionalism, compassion, and commitment.
+                    We strive to provide dependable medical services
+                    that put patients first.
+                </p>
+
+            </div>
+
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div class="bg-gray-800 p-8 rounded-xl">
+
+                    <i class="fa-solid fa-heart-pulse text-4xl text-orange-500 mb-5"></i>
+
+                    <h3 class="text-2xl font-bold mb-3">
+                        Patient-Centred Care
+                    </h3>
+
+                    <p class="text-gray-300">
+                        We prioritise the dignity, comfort, safety,
+                        and wellbeing of every patient we assist.
+                    </p>
+
+                </div>
+
+
+                <div class="bg-gray-800 p-8 rounded-xl">
+
+                    <i class="fa-solid fa-user-nurse text-4xl text-orange-500 mb-5"></i>
+
+                    <h3 class="text-2xl font-bold mb-3">
+                        Professional Medical Support
+                    </h3>
+
+                    <p class="text-gray-300">
+                        We are committed to delivering responsible
+                        medical assistance through appropriately
+                        qualified healthcare personnel.
+                    </p>
+
+                </div>
+
+
+                <div class="bg-gray-800 p-8 rounded-xl">
+
+                    <i class="fa-solid fa-handshake-angle text-4xl text-orange-500 mb-5"></i>
+
+                    <h3 class="text-2xl font-bold mb-3">
+                        Compassion & Commitment
+                    </h3>
+
+                    <p class="text-gray-300">
+                        We approach every patient and medical
+                        situation with respect, compassion,
+                        and dedication to quality service.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ===================================== -->
+<!-- MEDICAL AID SCHEMES -->
 <!-- ===================================== -->
 
-<section class="py-20 bg-gray-50">
+<section class="py-20 bg-white">
 
     <div class="max-w-7xl mx-auto px-6">
 
         <!-- SECTION HEADER -->
 
-        <div class="text-center mb-16">
+        <div class="text-center mb-14">
 
             <p class="text-orange-500 font-semibold tracking-widest">
-                WHAT WE OFFER
+                MEDICAL AID PARTNERS
             </p>
 
             <div class="w-24 h-1 bg-orange-500 mx-auto my-4"></div>
 
-            <h2 class="text-5xl font-bold text-gray-800 mb-6">
-                Our Medical Services
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+                Medical Aid Schemes
             </h2>
 
             <p class="max-w-3xl mx-auto text-gray-600 text-lg">
-                At KAYGEE EMS, we are committed to providing
-                professional, reliable, and compassionate emergency
-                medical assistance. From accident scenes and workplace
-                injuries to hospital transfers, events, and private
-                patient care, our focus is on patient safety,
-                dignity, and quality medical support.
+                KAYGEE EMS aims to assist patients with medical
+                transportation and emergency medical services.
+                We welcome enquiries from members of the following
+                South African medical aid schemes regarding
+                benefits, authorisation and payment arrangements.
             </p>
 
         </div>
 
 
-        <!-- SERVICES GRID -->
+        <!-- MEDICAL AID LOGOS GRID -->
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
 
+            <!-- DISCOVERY HEALTH -->
 
-            <!-- ACCIDENT ASSISTANCE -->
+            <div class="medical-aid-card">
+                <img src="https://logo.clearbit.com/discovery.co.za"
+                     alt="Discovery Health Logo"
+                     onerror="this.style.display='none'">
 
-            <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
-
-                <div class="text-orange-500 text-5xl mb-6">
-                    <i class="fa-solid fa-car-burst"></i>
-                </div>
-
-                <h3 class="text-2xl font-bold text-gray-800 mb-4">
-                    Accident Assistance
-                </h3>
-
-                <p class="text-gray-600 mb-5">
-                    KAYGEE EMS provides emergency medical assistance
-                    at accident scenes, prioritising patient assessment,
-                    immediate care, stabilisation, and safe transportation
-                    to appropriate healthcare facilities.
-                </p>
-
-                <ul class="space-y-3 text-gray-600">
-                    <li>✔ Road Accident Medical Assistance</li>
-                    <li>✔ Emergency Patient Assessment</li>
-                    <li>✔ On-Scene Medical Support</li>
-                    <li>✔ Patient Stabilisation</li>
-                    <li>✔ Ambulance Transportation</li>
-                </ul>
-
+                <h3>Discovery Health</h3>
             </div>
 
 
-            <!-- HOUSE CALLS -->
+            <!-- BONITAS -->
 
-            <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
+            <div class="medical-aid-card">
+                <img src="https://logo.clearbit.com/bonitas.co.za"
+                     alt="Bonitas Medical Fund Logo"
+                     onerror="this.style.display='none'">
 
-                <div class="text-orange-500 text-5xl mb-6">
-                    <i class="fa-solid fa-house-medical"></i>
-                </div>
-
-                <h3 class="text-2xl font-bold text-gray-800 mb-4">
-                    House Calls
-                </h3>
-
-                <p class="text-gray-600 mb-5">
-                    We provide medical assistance at patients' homes,
-                    offering convenient healthcare support for
-                    individuals who require medical attention without
-                    immediately travelling to a healthcare facility.
-                </p>
-
-                <ul class="space-y-3 text-gray-600">
-                    <li>✔ Home-Based Medical Assistance</li>
-                    <li>✔ Patient Assessment</li>
-                    <li>✔ Basic Medical Support</li>
-                    <li>✔ Medical Monitoring</li>
-                    <li>✔ Referral or Transport When Required</li>
-                </ul>
-
+                <h3>Bonitas</h3>
             </div>
 
 
-            <!-- HOSPITAL TRANSFERS -->
+            <!-- BESTMED -->
 
-            <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
+            <div class="medical-aid-card">
+                <img src="https://logo.clearbit.com/bestmed.co.za"
+                     alt="Bestmed Logo"
+                     onerror="this.style.display='none'">
 
-                <div class="text-orange-500 text-5xl mb-6">
-                    <i class="fa-solid fa-truck-medical"></i>
-                </div>
-
-                <h3 class="text-2xl font-bold text-gray-800 mb-4">
-                    Hospital-to-Hospital Transfers
-                </h3>
-
-                <p class="text-gray-600 mb-5">
-                    We facilitate patient transfers between hospitals
-                    and healthcare facilities, ensuring appropriate
-                    medical transportation and continuity of care
-                    throughout the transfer process.
-                </p>
-
-                <ul class="space-y-3 text-gray-600">
-                    <li>✔ Inter-Hospital Patient Transfers</li>
-                    <li>✔ Medical Facility Transfers</li>
-                    <li>✔ Scheduled Patient Transfers</li>
-                    <li>✔ Emergency Transfers</li>
-                    <li>✔ Appropriate Ambulance Support</li>
-                </ul>
-
+                <h3>Bestmed</h3>
             </div>
 
 
-            <!-- INJURIES ON DUTY / WCA -->
+            <!-- MEDIHELP -->
 
-            <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
+            <div class="medical-aid-card">
+                <img src="https://logo.clearbit.com/medihelp.co.za"
+                     alt="Medihelp Logo"
+                     onerror="this.style.display='none'">
 
-                <div class="text-orange-500 text-5xl mb-6">
-                    <i class="fa-solid fa-briefcase-medical"></i>
-                </div>
-
-                <h3 class="text-2xl font-bold text-gray-800 mb-4">
-                    Injuries on Duty / WCA
-                </h3>
-
-                <p class="text-gray-600 mb-5">
-                    KAYGEE EMS offers medical assistance and patient
-                    transportation for workplace injuries and
-                    occupational incidents. We support employers
-                    and employees by facilitating appropriate
-                    medical attention following workplace accidents.
-                </p>
-
-                <ul class="space-y-3 text-gray-600">
-                    <li>✔ Workplace Injury Assistance</li>
-                    <li>✔ Occupational Accident Response</li>
-                    <li>✔ Employee Medical Transportation</li>
-                    <li>✔ Medical Facility Transfers</li>
-                    <li>✔ WCA-Related Patient Support</li>
-                </ul>
-
+                <h3>Medihelp</h3>
             </div>
 
 
-            <!-- EVENTS MEDICAL ASSISTANCE -->
+            <!-- FEDHEALTH -->
 
-            <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
+            <div class="medical-aid-card">
+                <img src="https://logo.clearbit.com/fedhealth.co.za"
+                     alt="Fedhealth Logo"
+                     onerror="this.style.display='none'">
 
-                <div class="text-orange-500 text-5xl mb-6">
-                    <i class="fa-solid fa-kit-medical"></i>
-                </div>
-
-                <h3 class="text-2xl font-bold text-gray-800 mb-4">
-                    Events Medical Assistance
-                </h3>
-
-                <p class="text-gray-600 mb-5">
-                    We provide medical standby and emergency
-                    medical assistance for events, helping organisers
-                    promote a safer environment for participants,
-                    spectators, staff, and guests.
-                </p>
-
-                <ul class="space-y-3 text-gray-600">
-                    <li>✔ Corporate Event Medical Cover</li>
-                    <li>✔ Sports Event Medical Assistance</li>
-                    <li>✔ Community Event Medical Support</li>
-                    <li>✔ Medical Standby Services</li>
-                    <li>✔ Emergency Patient Assistance</li>
-                </ul>
-
+                <h3>Fedhealth</h3>
             </div>
 
 
-            <!-- PRIVATE PATIENTS -->
+            <!-- MOMENTUM -->
 
-            <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition">
+            <div class="medical-aid-card">
+                <img src="https://logo.clearbit.com/momentum.co.za"
+                     alt="Momentum Medical Scheme Logo"
+                     onerror="this.style.display='none'">
 
-                <div class="text-orange-500 text-5xl mb-6">
-                    <i class="fa-solid fa-user-doctor"></i>
-                </div>
-
-                <h3 class="text-2xl font-bold text-gray-800 mb-4">
-                    Private Patients
-                </h3>
-
-                <p class="text-gray-600 mb-5">
-                    We offer personalised medical assistance and
-                    transportation services to private individuals
-                    and families requiring professional healthcare
-                    support. Our commitment is to deliver care
-                    with compassion, respect, and dignity.
-                </p>
-
-                <ul class="space-y-3 text-gray-600">
-                    <li>✔ Private Ambulance Services</li>
-                    <li>✔ Scheduled Patient Transportation</li>
-                    <li>✔ Medical Appointment Transfers</li>
-                    <li>✔ Hospital Discharge Transfers</li>
-                    <li>✔ Personalised Patient Support</li>
-                </ul>
-
+                <h3>Momentum</h3>
             </div>
 
+
+            <!-- MEDSHIELD -->
+
+            <div class="medical-aid-card">
+                <img src="https://logo.clearbit.com/medshield.co.za"
+                     alt="Medshield Logo"
+                     onerror="this.style.display='none'">
+
+                <h3>Medshield</h3>
+            </div>
+
+
+            <!-- KEYHEALTH -->
+
+            <div class="medical-aid-card">
+                <img src="https://logo.clearbit.com/keyhealthmedical.co.za"
+                     alt="KeyHealth Logo"
+                     onerror="this.style.display='none'">
+
+                <h3>KeyHealth</h3>
+            </div>
+
+
+            <!-- GEMS -->
+
+            <div class="medical-aid-card">
+                <img src="https://logo.clearbit.com/gems.gov.za"
+                     alt="GEMS Logo"
+                     onerror="this.style.display='none'">
+
+                <h3>GEMS</h3>
+            </div>
+
+
+            <!-- POLMED -->
+
+            <div class="medical-aid-card">
+                <img src="https://logo.clearbit.com/polmed.co.za"
+                     alt="Polmed Logo"
+                     onerror="this.style.display='none'">
+
+                <h3>Polmed</h3>
+            </div>
+
+        </div>
+
+
+        <!-- INFORMATION NOTE -->
+
+        <div class="mt-12 text-center bg-gray-50 border-l-4 border-orange-500 p-6 rounded-lg">
+
+            <i class="fa-solid fa-circle-info text-orange-500 text-2xl mb-3"></i>
+
+            <h3 class="text-xl font-bold text-gray-800 mb-2">
+                Medical Aid Enquiries
+            </h3>
+
+            <p class="text-gray-600 max-w-3xl mx-auto">
+                Medical aid acceptance, benefits and payment
+                arrangements are subject to individual scheme
+                rules, available benefits, pre-authorisation
+                and confirmation of cover. Please contact
+                KAYGEE EMS before arranging a service.
+            </p>
+
+            <a href="../pages/contact_us.html"
+               class="inline-block mt-5 bg-orange-500 hover:bg-orange-600
+                      text-white font-semibold px-8 py-3 rounded-lg
+                      transition duration-300">
+
+                Contact KAYGEE EMS
+
+            </a>
 
         </div>
 
@@ -298,114 +570,69 @@
 
 
 <!-- ===================================== -->
-<!-- WHY CHOOSE KAYGEE EMS -->
+<!-- MEDICAL AID STYLES -->
 <!-- ===================================== -->
 
-<section class="py-20 bg-gray-900 text-white">
+<style>
 
-    <div class="max-w-7xl mx-auto px-6">
+.medical-aid-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    min-height: 170px;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.3s ease;
+}
 
-        <div class="text-center mb-16">
+.medical-aid-card:hover {
+    transform: translateY(-7px);
+    border-color: #f97316;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
 
-            <p class="text-orange-500 font-semibold tracking-widest">
-                WHY CHOOSE US
-            </p>
+.medical-aid-card img {
+    width: 125px;
+    height: 65px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
 
-            <div class="w-24 h-1 bg-orange-500 mx-auto my-4"></div>
+.medical-aid-card h3 {
+    color: #374151;
+    font-size: 15px;
+    font-weight: 700;
+}
 
-            <h2 class="text-5xl font-bold mb-6">
-                Your Care Is Our Priority
-            </h2>
-
-            <p class="max-w-3xl mx-auto text-gray-300 text-lg">
-                At KAYGEE EMS, we understand that medical assistance
-                requires professionalism, compassion, and commitment.
-                We strive to provide dependable medical services
-                that put patients first.
-            </p>
-
-        </div>
-
-
-        <div class="grid md:grid-cols-3 gap-8">
-
-            <div class="bg-gray-800 p-8 rounded-xl">
-
-                <i class="fa-solid fa-heart-pulse text-4xl text-orange-500 mb-5"></i>
-
-                <h3 class="text-2xl font-bold mb-3">
-                    Patient-Centred Care
-                </h3>
-
-                <p class="text-gray-300">
-                    We prioritise the dignity, comfort, safety,
-                    and wellbeing of every patient we assist.
-                </p>
-
-            </div>
-
-
-            <div class="bg-gray-800 p-8 rounded-xl">
-
-                <i class="fa-solid fa-user-nurse text-4xl text-orange-500 mb-5"></i>
-
-                <h3 class="text-2xl font-bold mb-3">
-                    Professional Medical Support
-                </h3>
-
-                <p class="text-gray-300">
-                    We are committed to delivering responsible
-                    medical assistance through appropriately
-                    qualified healthcare personnel.
-                </p>
-
-            </div>
-
-
-            <div class="bg-gray-800 p-8 rounded-xl">
-
-                <i class="fa-solid fa-handshake-angle text-4xl text-orange-500 mb-5"></i>
-
-                <h3 class="text-2xl font-bold mb-3">
-                    Compassion & Commitment
-                </h3>
-
-                <p class="text-gray-300">
-                    We approach every patient and medical
-                    situation with respect, compassion,
-                    and dedication to quality service.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
+</style>
 
 
     <footer class="footer">
-    
+
         <!-- Footer Bottom -->
         <div class="footer-bottom">
 
-               <p>
+            <p>
                 © 2026 KAYGEE EMS. All rights reserved.
-                </p>
+            </p>
 
-                <div class="footer-links">
-                    <a href="#">Privacy Policy</a>
-                    <span>|</span>
-                    <a href="#">Terms of Service</a>
-                    <span>|</span>
-                    <a href="https://www.instagram.com/dikolobe_technologies/">Website Builder</a>
-                </div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <span>|</span>
+                <a href="#">Terms of Service</a>
+                <span>|</span>
+                <a href="https://www.instagram.com/dikolobe_technologies/">Website Builder</a>
+            </div>
 
         </div>
     </footer>
 
     <script src="./js/mobile-menu.js"></script>
-    
+
 </body>
+
 </html>
