@@ -1,0 +1,328 @@
+
+/* =========================
+   KAYGEE EMS COLOR VARIABLES
+========================= */
+:root {
+    --primary: #0B1F33;       /* Medical Navy */
+    --secondary: #1E293B;     /* Dark Slate */
+    --accent: #DC2626;        /* Emergency Red */
+    --accent-hover: #B91C1C;  /* Dark Emergency Red */
+    --light: #F1F5F9;         /* Light Grey */
+    --white: #FFFFFF;
+    --text: #334155;           /* Slate Grey */
+    --border: #E2E8F0;
+    --card: #FFFFFF;
+    --sky-blue: #38BDF8;       /* Highlight Blue */
+}
+
+/* =========================
+   GLOBAL
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: var(--light);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ================================
+   CARDS
+================================ */
+.card,
+.project-card,
+.bg-white,
+.service-card {
+    border-radius: 18px;
+    transition: .3s;
+}
+
+.card:hover,
+.project-card:hover,
+.bg-white:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(11,31,51,.15);
+}
+
+/* =========================
+   HEADER
+========================= */
+.career-section {
+    padding: 50px 20px;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.subtitle {
+    color: var(--accent);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.section-header h1 {
+    color: var(--primary);
+    font-size: 3rem;
+    margin: 15px 0;
+}
+
+.description {
+    max-width: 700px;
+    margin: auto;
+    color: var(--text);
+}
+
+/* =========================
+   STATS
+========================= */
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.stat-box {
+    background: var(--card);
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    border-top: 5px solid var(--accent);
+    box-shadow: 0 5px 15px rgba(11,31,51,.08);
+}
+
+.stat-box h2 {
+    color: var(--accent);
+    font-size: 2.5rem;
+}
+
+.stat-box span {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+/* =========================
+   JOB CARDS
+========================= */
+.jobs-container {
+    display: grid;
+    gap: 25px;
+}
+
+.job-card {
+    background: var(--card);
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 5px 20px rgba(11,31,51,.08);
+    border-left: 5px solid var(--accent);
+    transition: .3s;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.job-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(220,38,38,.15);
+}
+
+.department {
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.department span {
+    color: var(--text);
+    font-weight: 500;
+}
+
+.job-info h3 {
+    color: var(--primary);
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.job-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    color: var(--text);
+}
+
+.job-meta i {
+    color: var(--accent);
+}
+
+/* =========================
+   BUTTONS
+========================= */
+.job-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    align-self: flex-end;
+    flex-shrink: 0;
+}
+
+.btn-outline {
+    padding: 12px 24px;
+    border: 2px solid var(--accent);
+    background: transparent;
+    color: var(--accent);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn-outline:hover {
+    background: var(--accent);
+    color: var(--white);
+}
+
+.btn-filled,
+.apply-btn {
+    padding: 12px 24px;
+    border: none;
+    background: var(--accent);
+    color: var(--white);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn-filled:hover,
+.apply-btn:hover {
+    background: var(--accent-hover);
+}
+
+/* =========================
+   MODAL
+========================= */
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(11,31,51,.75);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal-content {
+    background: var(--white);
+    width: 90%;
+    max-width: 850px;
+    padding: 35px;
+    border-radius: 15px;
+    position: relative;
+    border-top: 5px solid var(--accent);
+}
+
+.close-icon {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    border: none;
+    background: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--accent);
+}
+
+.category {
+    display: inline-block;
+    background: #FEE2E2;
+    color: var(--accent);
+    padding: 8px 14px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.job-title {
+    color: var(--primary);
+    margin: 20px 0;
+}
+
+.tag {
+    background: var(--light);
+    color: var(--text);
+    padding: 8px 14px;
+    border-radius: 30px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.section h3 {
+    color: var(--primary);
+    border-left: 4px solid var(--accent);
+    padding-left: 10px;
+    margin: 20px 0;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.footer {
+    background: var(--primary);
+    color: var(--white);
+    margin-top: 80px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 40px;
+    padding: 60px 30px;
+}
+
+.footer h3 {
+    color: var(--accent);
+    margin-bottom: 20px;
+}
+
+.footer a {
+    color: #CBD5E1;
+    transition: .3s;
+}
+
+.footer a:hover {
+    color: var(--sky-blue);
+}
+
+.social-icons a {
+    width: 42px;
+    height: 42px;
+    background: rgba(255,255,255,.08);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.social-icons a:hover {
+    background: var(--accent);
+    color: var(--white);
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,.1);
+    text-align: center;
+    padding: 20px;
+}
