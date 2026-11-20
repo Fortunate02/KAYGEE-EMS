@@ -1,76 +1,846 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KAYGEE EMS | Vacancies</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <title>KAYGEE EMS | About Us</title>
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
     <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0B1F33',
+                        secondary: '#1E293B',
+                        accent: '#DC2626',
+                        light: '#F1F5F9'
+                    }
+                }
+            }
+        }
+    </script>
+
 </head>
+
 <body>
 
-    <!-- Navigation -->
-  <nav class="bg-white shadow-lg sticky top-0 z-50">
+<!-- ================================= -->
+<!-- NAVIGATION -->
+<!-- ================================= -->
+
+<nav class="bg-white shadow-lg sticky top-0 z-50">
+
     <div class="max-w-7xl mx-auto flex justify-between items-center px-6 h-20">
 
-      <!-- Logo -->
-      <div class="flex items-center">
-        <img src="./" alt="KAYGEE EMS" class="h-20">
-        <span class="ml-4 text-3xl font-bold luxury-text-gradient h-14">KAYGEE EMS</span>
-      </div>
+        <div class="flex items-center">
 
-      <!-- Desktop Menu -->
-      <div id="nav-links" class="hidden md:flex space-x-8">
-        <a href="../index.html" class="text-primary">Home</a>
-        <a href="../pages/services.html">Service</a>
-        <a href="../pages/vacancies.html">Vacancies</a>
-        <a href="../pages/contact_us.html">Contact</a>
-        <a href="../pages/about.html" class="text-primary">About Us</a>
-        <a href="../pages/request-assistance.html">Request Assistance</a>
-      </div>
+            <img src="../assests/logo.png"
+                 alt="KAYGEE EMS Logo"
+                 class="h-14">
 
-      <!-- Hamburger Button (Mobile only) -->
-      <button id="hamburger" class="md:hidden flex flex-col gap-1.5 focus:outline-none">
-        <span class="w-6 h-0.5 bg-black"></span>
-        <span class="w-6 h-0.5 bg-black"></span>
-        <span class="w-6 h-0.5 bg-black"></span>
-      </button>
+            <span class="ml-4 text-3xl font-bold luxury-text-gradient">
+                KAYGEE EMS
+            </span>
+
+        </div>
+
+        <!-- Desktop Menu -->
+
+        <div id="nav-links" class="hidden md:flex space-x-8">
+
+            <a href="../index.html">Home</a>
+
+            <a href="services.html">Services</a>
+
+            <a href="vacancies.html">Vacancies</a>
+
+            <a href="about.html" class="text-primary">About Us</a>
+
+            <a href="contact_us.html">Contact</a>
+
+            <a href="request-assistance.html">Request Assistance</a>
+
+        </div>
+
+        <!-- Hamburger -->
+
+        <button id="hamburger"
+                class="md:hidden flex flex-col gap-1.5 focus:outline-none">
+
+            <span class="w-6 h-0.5 bg-black"></span>
+            <span class="w-6 h-0.5 bg-black"></span>
+            <span class="w-6 h-0.5 bg-black"></span>
+
+        </button>
+
     </div>
 
     <!-- Mobile Menu -->
 
-    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg px-6 pb-6">
+    <div id="mobile-menu"
+         class="hidden md:hidden bg-white shadow-lg px-6 pb-6">
 
-      <a href="../index.html" class="block py-3">
-        Home
-      </a>
+        <a href="../index.html" class="block py-3">Home</a>
 
-      <a href="../pages/services.html" class="block py-3">
-        Service
-      </a>
+        <a href="services.html" class="block py-3">Services</a>
 
-      <a href="../pages/contact_us.html" class="block py-3">
-        Vacancies
-      </a>
+        <a href="vacancies.html" class="block py-3">Vacancies</a>
 
-      <a href="../pages/contact_us.html" class="block py-3">
-        Contact
-      </a>
+        <a href="about.html" class="block py-3">About Us</a>
 
-      <a href="../pages/about_us.html" class="block py-3">
-        About Us
-      </a>
+        <a href="contact_us.html" class="block py-3">Contact</a>
 
-      <a href="../pages/request-assistance.html" class="block py-3">
-        Request Assistance
-      </a>
-      
+        <a href="request-assistance.html" class="block py-3">
+            Request Assistance
+        </a>
+
     </div>
-  </nav>
-    
 
-  <script src="./js/mobile-menu.js"></script>
-  
+</nav>
+
+
+<!-- ================================= -->
+<!-- ABOUT HERO -->
+<!-- ================================= -->
+
+<section class="relative py-24 bg-gray-900 text-white text-center">
+
+    <div class="absolute inset-0 opacity-20"
+         style="background-image:linear-gradient(rgba(11,31,51,.8),rgba(11,31,51,.8)),url('../assests/images/IMG-20261107-WA0040.jpg');background-size:cover;background-position:center;">
+    </div>
+
+    <div class="relative max-w-4xl mx-auto px-6">
+
+        <p class="text-red-500 font-bold tracking-widest mb-4">
+            WHO WE ARE
+        </p>
+
+        <h1 class="text-4xl md:text-6xl font-bold mb-6">
+            About KAYGEE EMS
+        </h1>
+
+        <p class="text-lg md:text-xl text-gray-200 leading-relaxed">
+
+            Committed to providing professional medical assistance,
+            reliable emergency response and compassionate patient care.
+
+        </p>
+
+        <div class="w-24 h-1 bg-red-600 mx-auto mt-8"></div>
+
+    </div>
+
+</section>
+
+
+<!-- ================================= -->
+<!-- COMPANY INTRODUCTION -->
+<!-- ================================= -->
+
+<section class="py-20 bg-gray-50">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+            <!-- Text -->
+
+            <div>
+
+                <p class="text-red-600 font-bold tracking-widest mb-3">
+                    ABOUT OUR COMPANY
+                </p>
+
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">
+                    Your Health, Our Priority
+                </h2>
+
+                <p class="text-gray-600 text-lg leading-relaxed mb-6">
+
+                    KAYGEE EMS is committed to providing dependable
+                    emergency medical assistance, patient transportation
+                    and professional healthcare support to individuals,
+                    families, businesses and communities.
+
+                </p>
+
+                <p class="text-gray-600 text-lg leading-relaxed mb-6">
+
+                    We understand that medical emergencies and healthcare
+                    needs require more than transportation. They require
+                    compassion, professionalism, responsibility and
+                    a commitment to patient safety.
+
+                </p>
+
+                <p class="text-gray-600 text-lg leading-relaxed mb-8">
+
+                    Through our medical services, we aim to support
+                    patients throughout their healthcare journey,
+                    from emergency situations and workplace injuries
+                    to scheduled hospital transfers and private
+                    patient transportation.
+
+                </p>
+
+                <a href="services.html"
+                   class="inline-block bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-bold transition">
+
+                    Explore Our Services
+
+                </a>
+
+            </div>
+
+
+            <!-- Image -->
+
+            <div>
+
+                <img src="../assests/images/IMG-20261107-WA0040.jpg"
+                     alt="KAYGEE EMS Medical Services"
+                     class="w-full h-96 object-cover rounded-2xl shadow-xl">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================================= -->
+<!-- MISSION AND VISION -->
+<!-- ================================= -->
+
+<section class="py-20 bg-white">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-16">
+
+            <p class="text-red-600 font-bold tracking-widest">
+                OUR PURPOSE
+            </p>
+
+            <h2 class="text-4xl font-bold text-gray-900 mt-3">
+                Our Mission & Vision
+            </h2>
+
+            <div class="w-24 h-1 bg-red-600 mx-auto mt-5"></div>
+
+        </div>
+
+
+        <div class="grid md:grid-cols-2 gap-10">
+
+            <!-- Mission -->
+
+            <div class="bg-gray-50 p-10 rounded-2xl shadow-lg border-t-4 border-red-600">
+
+                <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6">
+
+                    <i class="fa-solid fa-bullseye text-red-600 text-3xl"></i>
+
+                </div>
+
+                <h3 class="text-2xl font-bold text-gray-900 mb-5">
+                    Our Mission
+                </h3>
+
+                <p class="text-gray-600 leading-relaxed">
+
+                    To provide professional, reliable and compassionate
+                    emergency medical assistance and patient transportation
+                    services while prioritising patient safety, dignity
+                    and quality care.
+
+                </p>
+
+            </div>
+
+
+            <!-- Vision -->
+
+            <div class="bg-gray-50 p-10 rounded-2xl shadow-lg border-t-4 border-red-600">
+
+                <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6">
+
+                    <i class="fa-solid fa-eye text-red-600 text-3xl"></i>
+
+                </div>
+
+                <h3 class="text-2xl font-bold text-gray-900 mb-5">
+                    Our Vision
+                </h3>
+
+                <p class="text-gray-600 leading-relaxed">
+
+                    To be a trusted medical emergency and patient
+                    transportation service provider recognised for
+                    professionalism, compassion, reliability and
+                    commitment to improving access to medical care.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================================= -->
+<!-- CORE VALUES -->
+<!-- ================================= -->
+
+<section class="py-20 bg-gray-900 text-white">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-16">
+
+            <p class="text-red-500 font-bold tracking-widest">
+                WHAT GUIDES US
+            </p>
+
+            <h2 class="text-4xl font-bold mt-3">
+                Our Core Values
+            </h2>
+
+            <p class="text-gray-300 mt-5 max-w-2xl mx-auto">
+
+                The principles that guide our commitment to
+                patients, families and the communities we serve.
+
+            </p>
+
+            <div class="w-24 h-1 bg-red-600 mx-auto mt-5"></div>
+
+        </div>
+
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+
+            <div class="bg-gray-800 p-8 rounded-xl text-center">
+
+                <i class="fa-solid fa-heart-pulse text-red-500 text-4xl mb-6"></i>
+
+                <h3 class="text-xl font-bold mb-4">
+                    Compassion
+                </h3>
+
+                <p class="text-gray-300">
+                    We treat every patient with kindness,
+                    respect, empathy and dignity.
+                </p>
+
+            </div>
+
+
+            <div class="bg-gray-800 p-8 rounded-xl text-center">
+
+                <i class="fa-solid fa-shield-heart text-red-500 text-4xl mb-6"></i>
+
+                <h3 class="text-xl font-bold mb-4">
+                    Patient Safety
+                </h3>
+
+                <p class="text-gray-300">
+                    We prioritise the safety and wellbeing
+                    of every patient under our care.
+                </p>
+
+            </div>
+
+
+            <div class="bg-gray-800 p-8 rounded-xl text-center">
+
+                <i class="fa-solid fa-user-doctor text-red-500 text-4xl mb-6"></i>
+
+                <h3 class="text-xl font-bold mb-4">
+                    Professionalism
+                </h3>
+
+                <p class="text-gray-300">
+                    We value responsibility, integrity
+                    and professional medical support.
+                </p>
+
+            </div>
+
+
+            <div class="bg-gray-800 p-8 rounded-xl text-center">
+
+                <i class="fa-solid fa-handshake-angle text-red-500 text-4xl mb-6"></i>
+
+                <h3 class="text-xl font-bold mb-4">
+                    Commitment
+                </h3>
+
+                <p class="text-gray-300">
+                    We are dedicated to providing dependable
+                    services and supporting our communities.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================================= -->
+<!-- OUR SERVICES -->
+<!-- ================================= -->
+
+<section class="py-20 bg-gray-50">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-16">
+
+            <p class="text-red-600 font-bold tracking-widest">
+                WHAT WE DO
+            </p>
+
+            <h2 class="text-4xl font-bold text-gray-900 mt-3">
+                Our Medical Services
+            </h2>
+
+            <p class="text-gray-600 mt-5 max-w-3xl mx-auto">
+
+                We provide a range of medical assistance and
+                patient transportation services designed
+                to support different healthcare needs.
+
+            </p>
+
+        </div>
+
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+            <div class="bg-white p-8 rounded-xl shadow-lg">
+
+                <i class="fa-solid fa-truck-medical text-red-600 text-4xl mb-5"></i>
+
+                <h3 class="text-xl font-bold text-gray-900 mb-3">
+                    Emergency Medical Assistance
+                </h3>
+
+                <p class="text-gray-600">
+                    Medical support and assistance during
+                    emergency situations and accident scenes.
+                </p>
+
+            </div>
+
+
+            <div class="bg-white p-8 rounded-xl shadow-lg">
+
+                <i class="fa-solid fa-house-medical text-red-600 text-4xl mb-5"></i>
+
+                <h3 class="text-xl font-bold text-gray-900 mb-3">
+                    House Calls
+                </h3>
+
+                <p class="text-gray-600">
+                    Medical assistance and support for
+                    patients in the comfort of their homes.
+                </p>
+
+            </div>
+
+
+            <div class="bg-white p-8 rounded-xl shadow-lg">
+
+                <i class="fa-solid fa-hospital text-red-600 text-4xl mb-5"></i>
+
+                <h3 class="text-xl font-bold text-gray-900 mb-3">
+                    Hospital Transfers
+                </h3>
+
+                <p class="text-gray-600">
+                    Patient transportation between hospitals
+                    and other healthcare facilities.
+                </p>
+
+            </div>
+
+
+            <div class="bg-white p-8 rounded-xl shadow-lg">
+
+                <i class="fa-solid fa-briefcase-medical text-red-600 text-4xl mb-5"></i>
+
+                <h3 class="text-xl font-bold text-gray-900 mb-3">
+                    Workplace Injuries
+                </h3>
+
+                <p class="text-gray-600">
+                    Medical assistance and transportation
+                    following workplace injuries and incidents.
+                </p>
+
+            </div>
+
+
+            <div class="bg-white p-8 rounded-xl shadow-lg">
+
+                <i class="fa-solid fa-kit-medical text-red-600 text-4xl mb-5"></i>
+
+                <h3 class="text-xl font-bold text-gray-900 mb-3">
+                    Events Medical Assistance
+                </h3>
+
+                <p class="text-gray-600">
+                    Medical standby and assistance for
+                    sporting, corporate and community events.
+                </p>
+
+            </div>
+
+
+            <div class="bg-white p-8 rounded-xl shadow-lg">
+
+                <i class="fa-solid fa-user-doctor text-red-600 text-4xl mb-5"></i>
+
+                <h3 class="text-xl font-bold text-gray-900 mb-3">
+                    Private Patients
+                </h3>
+
+                <p class="text-gray-600">
+                    Patient transportation and medical
+                    support for private individuals and families.
+                </p>
+
+            </div>
+
+
+        </div>
+
+        <div class="text-center mt-12">
+
+            <a href="services.html"
+               class="inline-block bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-bold transition">
+
+                View All Services
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================================= -->
+<!-- WHY CHOOSE US -->
+<!-- ================================= -->
+
+<section class="py-20 bg-white">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+            <div>
+
+                <p class="text-red-600 font-bold tracking-widest">
+                    WHY KAYGEE EMS
+                </p>
+
+                <h2 class="text-4xl font-bold text-gray-900 mt-3 mb-8">
+                    Medical Support You Can Trust
+                </h2>
+
+
+                <div class="flex gap-5 mb-7">
+
+                    <i class="fa-solid fa-check-circle text-red-600 text-2xl mt-1"></i>
+
+                    <div>
+
+                        <h3 class="font-bold text-xl text-gray-900 mb-2">
+                            Patient-Focused Approach
+                        </h3>
+
+                        <p class="text-gray-600">
+                            Every patient deserves respect,
+                            compassion and individual attention.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="flex gap-5 mb-7">
+
+                    <i class="fa-solid fa-check-circle text-red-600 text-2xl mt-1"></i>
+
+                    <div>
+
+                        <h3 class="font-bold text-xl text-gray-900 mb-2">
+                            Dependable Medical Assistance
+                        </h3>
+
+                        <p class="text-gray-600">
+                            We are committed to providing
+                            responsible and reliable medical support.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="flex gap-5 mb-7">
+
+                    <i class="fa-solid fa-check-circle text-red-600 text-2xl mt-1"></i>
+
+                    <div>
+
+                        <h3 class="font-bold text-xl text-gray-900 mb-2">
+                            Professional Service
+                        </h3>
+
+                        <p class="text-gray-600">
+                            We value professionalism, accountability
+                            and quality service delivery.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="flex gap-5">
+
+                    <i class="fa-solid fa-check-circle text-red-600 text-2xl mt-1"></i>
+
+                    <div>
+
+                        <h3 class="font-bold text-xl text-gray-900 mb-2">
+                            Commitment to Communities
+                        </h3>
+
+                        <p class="text-gray-600">
+                            We aim to make medical assistance
+                            accessible to the people and communities
+                            we serve.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <img src="../assests/images/IMG-20261107-WA0040.jpg"
+                     alt="KAYGEE EMS Emergency Medical Support"
+                     class="w-full h-96 object-cover rounded-2xl shadow-xl">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================================= -->
+<!-- CALL TO ACTION -->
+<!-- ================================= -->
+
+<section class="py-20 bg-gray-900 text-white text-center">
+
+    <div class="max-w-4xl mx-auto px-6">
+
+        <i class="fa-solid fa-truck-medical text-red-500 text-5xl mb-6"></i>
+
+        <h2 class="text-4xl md:text-5xl font-bold mb-6">
+            Your Health Matters to Us
+        </h2>
+
+        <p class="text-gray-300 text-lg mb-10">
+
+            Whether you require medical assistance,
+            patient transportation or event medical support,
+            KAYGEE EMS is here to help.
+
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-5">
+
+            <a href="contact_us.html"
+               class="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-bold transition">
+
+                Contact Us
+
+            </a>
+
+            <a href="request-assistance.html"
+               class="bg-white text-gray-900 hover:bg-gray-200 px-8 py-4 rounded-lg font-bold transition">
+
+                Request Assistance
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================================= -->
+<!-- FOOTER -->
+<!-- ================================= -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="company-info">
+
+            <h3>KAYGEE EMS</h3>
+
+            <p>
+                Committed to providing professional medical
+                assistance, dependable patient transportation
+                and compassionate healthcare support.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>QUICK LINKS</h3>
+
+            <ul>
+
+                <li><a href="../index.html">Home</a></li>
+
+                <li><a href="about.html">About Us</a></li>
+
+                <li><a href="services.html">Services</a></li>
+
+                <li><a href="vacancies.html">Vacancies</a></li>
+
+                <li><a href="contact_us.html">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>OUR SERVICES</h3>
+
+            <ul>
+
+                <li><a href="services.html">Accident Assistance</a></li>
+
+                <li><a href="services.html">House Calls</a></li>
+
+                <li><a href="services.html">Hospital Transfers</a></li>
+
+                <li><a href="services.html">Events Medical Assistance</a></li>
+
+                <li><a href="services.html">Private Patients</a></li>
+
+            </ul>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h3>GET IN TOUCH</h3>
+
+            <p>
+                Contact KAYGEE EMS for medical service enquiries
+                and patient assistance.
+            </p>
+
+            <a href="contact_us.html">
+                Contact Our Team
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 KAYGEE EMS. All rights reserved.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="#">Privacy Policy</a>
+
+            <span>|</span>
+
+            <a href="#">Terms of Service</a>
+
+            <span>|</span>
+
+            <a href="https://www.instagram.com/dikolobe_technologies/">
+                Website Builder
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- ================================= -->
+<!-- MOBILE MENU SCRIPT -->
+<!-- ================================= -->
+
+<script>
+
+    const hamburger = document.getElementById("hamburger");
+
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    hamburger.addEventListener("click", () => {
+
+        mobileMenu.classList.toggle("hidden");
+
+    });
+
+</script>
+
 </body>
 </html>
